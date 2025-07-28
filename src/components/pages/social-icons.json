@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pages_social_icons",
+  "info": {
+    "displayName": "social_icons",
+    "icon": "icons"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "linkedin",
+        "instagram"
+      ]
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

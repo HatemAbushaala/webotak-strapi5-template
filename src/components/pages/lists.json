@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_pages_lists",
+  "info": {
+    "displayName": "list",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "displayName": "ListItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.list-item"
+    }
+  }
+}

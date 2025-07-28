@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_pages_cards",
+  "info": {
+    "displayName": "cards",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

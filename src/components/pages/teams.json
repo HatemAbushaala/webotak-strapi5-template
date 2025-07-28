@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_pages_teams",
+  "info": {
+    "displayName": "teams",
+    "icon": "sitemap",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "social_icons": {
+      "displayName": "social_icons",
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.social-icons"
+    },
+    "content": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "profile_image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

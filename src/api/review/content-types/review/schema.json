@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "singularName": "review",
+    "pluralName": "reviews",
+    "displayName": "review"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "source": {
+      "type": "string"
+    },
+    "review_id": {
+      "type": "string",
+      "description": "3rd party review id"
+    },
+    "rating": {
+      "type": "integer"
+    },
+    "user_name": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "text"
+    },
+    "user_thumbnail": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

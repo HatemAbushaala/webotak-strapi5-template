@@ -1,0 +1,26 @@
+{
+   "collectionName": "components_sections_consultations",
+   "info": {
+      "displayName": "Consultation Section",
+      "icon": "calendar"
+   },
+   "attributes": {
+      "title": {
+         "type": "string",
+         "default": "Book a 15-min investor"
+      },
+      "boldTitle": {
+         "type": "string",
+         "default": "consultation"
+      },
+      "backgroundImage": {
+         "type": "media",
+         "multiple": false,
+         "allowedTypes": ["images"]
+      },
+      "calendlyUrl": {
+         "type": "string",
+         "default": "https://calendly.com/your-account/15min"
+      }
+   }
+}

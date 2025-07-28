@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_options_social_icons",
+  "info": {
+    "displayName": "social_icons",
+    "icon": "share-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "instagram",
+        "twitter",
+        "linkedin"
+      ]
+    }
+  }
+}

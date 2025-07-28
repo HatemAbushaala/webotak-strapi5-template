@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "video_id": {
+      "type": "string"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.faq-item"
+    },
+    "testimonials": {
+      "displayName": "Testimonials",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.testimonials"
+    },
+    "logos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.list-item"
+    },
+    "tenants": {
+      "displayName": "tenants",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.tenants"
+    }
+  }
+}

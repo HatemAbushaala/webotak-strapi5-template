@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pages_contact_forms",
+  "info": {
+    "displayName": "contact-form",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

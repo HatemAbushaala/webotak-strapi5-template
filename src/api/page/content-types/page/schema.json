@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "pages.cta",
+        "pages.query",
+        "pages.lists"
+      ]
+    }
+  }
+}

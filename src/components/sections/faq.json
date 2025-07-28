@@ -1,0 +1,29 @@
+{
+   "collectionName": "components_sections_faqs",
+   "info": {
+      "displayName": "FAQ Section",
+      "icon": "question-circle"
+   },
+   "attributes": {
+      "title": {
+         "type": "string",
+         "default": "FAQs"
+      },
+      "subtitle": {
+         "type": "string"
+      },
+      "faqs": {
+         "type": "component",
+         "repeatable": true,
+         "component": "elements.faq-item"
+      },
+      "ctaText": {
+         "type": "string",
+         "default": "Ask your own question"
+      },
+      "ctaLink": {
+         "type": "string",
+         "default": "/contact"
+      }
+   }
+}

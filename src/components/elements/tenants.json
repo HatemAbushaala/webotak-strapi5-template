@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elements_tenants",
+  "info": {
+    "displayName": "tenants",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "first_row_images": {
+      "allowedTypes": ["images", "files"],
+      "type": "media",
+      "multiple": true
+    },
+    "second_row_images": {
+      "allowedTypes": ["images", "files"],
+      "type": "media",
+      "multiple": true
+    },
+    "third_row_images": {
+      "allowedTypes": ["images", "files"],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

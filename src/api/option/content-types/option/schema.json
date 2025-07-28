@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "options",
+  "info": {
+    "singularName": "option",
+    "pluralName": "options",
+    "displayName": "option",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "menu": {
+      "displayName": "menu",
+      "type": "component",
+      "repeatable": true,
+      "component": "options.menu"
+    },
+    "roi_percentage": {
+      "type": "decimal"
+    }
+  }
+}

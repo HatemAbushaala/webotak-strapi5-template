@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_sections_about",
+  "info": {
+    "displayName": "About Section",
+    "icon": "info-circle",
+    "description": ""
+  },
+  "attributes": {
+    "sectionTitle": {
+      "type": "string",
+      "default": "ABOUT US"
+    },
+    "headingStart": {
+      "type": "string"
+    },
+    "headingBold": {
+      "type": "string",
+      "required": true
+    },
+    "headingEnd": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "partnerLogos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "trustedByText": {
+      "type": "string",
+      "default": "Trusted by"
+    }
+  }
+}

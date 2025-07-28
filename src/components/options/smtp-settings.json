@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_options_smtp_settings",
+  "info": {
+    "displayName": "smtpSettings",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "host": {
+      "type": "string"
+    },
+    "mailTo": {
+      "type": "string"
+    }
+  }
+}

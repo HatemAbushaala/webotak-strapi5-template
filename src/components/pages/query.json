@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_pages_query",
+  "info": {
+    "displayName": "Query",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "type": {
+      "type": "text"
+    },
+    "limit": {
+      "type": "integer"
+    },
+    "query": {
+      "type": "json"
+    }
+  }
+}

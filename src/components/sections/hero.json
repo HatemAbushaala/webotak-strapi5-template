@@ -1,0 +1,47 @@
+{
+   "collectionName": "components_sections_heroes",
+   "info": {
+      "displayName": "Hero Section",
+      "icon": "heading",
+      "description": "Main homepage hero section"
+   },
+   "attributes": {
+      "titleStart": {
+         "type": "string"
+      },
+      "titleBold": {
+         "type": "string",
+         "required": true
+      },
+      "titleEnd": {
+         "type": "string"
+      },
+      "subtitle": {
+         "type": "text"
+      },
+      "backgroundImage": {
+         "type": "media",
+         "multiple": false,
+         "allowedTypes": ["images"],
+         "required": true
+      },
+      "ctaText": {
+         "type": "string",
+         "default": "Get started"
+      },
+      "ctaLink": {
+         "type": "string",
+         "default": "#"
+      },
+      "showOverlay": {
+         "type": "boolean",
+         "default": true,
+         "description": "Add dark overlay on background image"
+      },
+      "alignment": {
+         "type": "enumeration",
+         "enum": ["left", "center", "right"],
+         "default": "left"
+      }
+   }
+}
